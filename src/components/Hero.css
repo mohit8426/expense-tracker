@@ -1,0 +1,27 @@
+/* HeroSection.css */
+.hero-container {
+    background: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
+    color: white;
+    padding: 60px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hero-container h1 {
+    animation: text-glow 2s ease-in-out infinite alternate;
+  }
+  
+  .hero-container p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+  
+  @keyframes text-glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+  

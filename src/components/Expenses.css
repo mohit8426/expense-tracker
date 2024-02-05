@@ -1,0 +1,26 @@
+/* ExpenseSummary.css */
+.expense-summary-row {
+    margin-top: 20px;
+  }
+  
+  .expense-summary-card, .category-list-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  .expense-summary-card .card-title, .category-list-card .card-title {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .category-list-card .list-group-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .category-list-card .list-group-item svg {
+    margin-right: 10px;
+    font-size: 1.5rem;
+  }
+  

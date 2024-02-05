@@ -1,0 +1,22 @@
+/* DashboardOverview.css */
+.dashboard-card {
+    margin-top: 20px;
+    background: linear-gradient(to bottom, #6a11cb 0%, #2575fc 100%);
+    color: #fff;
+    border: none;
+  }
+  
+  .dashboard-card .card-body, .dashboard-card .list-group-item {
+    background: transparent;
+    border: none;
+    color: #fff;
+  }
+  
+  .dashboard-card .list-group-item {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .dashboard-card .card-title {
+    font-size: 1.5rem;
+  }
+  
