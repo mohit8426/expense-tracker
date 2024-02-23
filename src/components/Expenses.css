@@ -1,26 +1,67 @@
 /* ExpenseSummary.css */
 .expense-summary-row {
-    margin-top: 20px;
-  }
-  
-  .expense-summary-card, .category-list-card {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border: none;
-    margin-bottom: 20px;
-  }
-  
-  .expense-summary-card .card-title, .category-list-card .card-title {
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  
-  .category-list-card .list-group-item {
-    display: flex;
-    align-items: center;
-  }
-  
-  .category-list-card .list-group-item svg {
-    margin-right: 10px;
-    font-size: 1.5rem;
-  }
-  
+  margin-top: 20px;
+}
+
+.expense-summary-card, .category-list-card {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.card-body {
+  position: relative;
+  padding: 20px;
+}
+
+.card-title {
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Specific to Splitwise Summary */
+.splitwise-summary {
+  background-color: #f0f4f8;
+  border-left: 5px solid #007bff;
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.list-group-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.fa-icon {
+  margin-right: 10px;
+  font-size: 1.5rem;
+  vertical-align: middle;
+}
+
+/* Alert box */
+.alert-info {
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+  color: #0c5460;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+/* Enhancing list group */
+.list-group-item {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  color: #555;
+}
+
+/* Icons styling */
+.fa-shopping-cart, .fa-utensils, .fa-car, .fa-house-user {
+  color: #6c757d; /* A mild grey color for icons */
+  margin-right: 8px;
+}
